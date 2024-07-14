@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>www.farmsizzle.com</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <script src="farm.js"></script>
+
+	<header>
+		<ul>
+			<li id="logo">Farm Sizzle<p id="tagline">Agriculture Product Services</p></li>
+			<li id="login"><a href="login.php">Login</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#home">Home</a></li>
+            <p id="call"><i class="fa-solid fa-phone-volume"></i> Missed call to Order: 1800 333 4455 </p>
+		</ul>
+	</header>
+
+
+	<section class="sliding">
+	<div class="container-fluid">
+
+    <div id="mycarousel"  class="carousel slide" data-ride="carousel">
+			
+            <!-- Code for Indicators -->
+
+            <ol class="carousel-indicators">
+             
+                <li data-target="#mycarousel" class="active"></li>
+                <li data-target="#mycarousel"></li>
+                <li data-target="#mycarousel"></li>
+               
+
+
+            </ol>  <!-- carousel-indicators-->
+
+
+            <div class="carousel-inner">
+            	 <div class="item active">
+            	 	<img src="usethis/shop.jpg">
+
+            	 </div>
+
+                 <div class="item">
+            	 	<img src="usethis/shop5.jpg">
+            	 </div>
+
+            	 <div class="item">
+            	 	<img src="usethis/z7.jpg">
+            	 </div>
+
+            </div>  <!-- carousel-inner-->
+
+            <!--- Code for Arrow Effect -->
+
+           <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left"></span>
+             </a>
+
+
+            
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+               <span class="glyphicon glyphicon-chevron-right"></span> 
+             </a>
+
+
+		</div>  <!-- end of mycarousel-->
+
+	</div> <!-- end of div container--> 
+</section>
+
+<section class="categories" id="categories">
+		<h2 class="heading">Our<span>Categories</span></h2>
+
+    <div class="container">
+      <div class="row">
+              
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/offer.jpg"><p>Offers</p></div>
+              </div>
+
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/n.jpg"><p>Nutrients</p></div>
+              </div>
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/herbi.webp"><p>Herbisides</p></div>
+              </div>
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/growth.jpg"><p>Growth Promotors</p></div>
+              </div>
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/fungicide.webp"><p>Fungicides</p></div>
+              </div>
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/viricide.jpg"><p>Virisides</p></div>
+              </div>
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/farm.jpg"><p>Farm Machinery</p></div>
+              </div>
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/seed.jpg"><p>Seeds</p></div>
+              </div>
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/insecticide.jpg"><p>Insectisides</p></div>
+              </div>
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/organic.jpg"><p>Organic Farming</p></div>
+              </div>
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/animal.jpg"><p>Animal Husbandry</p></div>
+              </div>
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/new.jpg"><p>New Products</p></div>
+              </div>
+         
+      </div>  <!--  row 1st--->
+
+</div>
+</section>
+
+      <br><br>
+
+      <section class="bestselling" id="products" onclick="addCart()">
+    <h2 class="heading"><span>Best Selling</span></h2>
+   <div class="container-fluid">
+        <div class="row">
+              
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">32% off</span></p><img src="usethis/roundup.jpg">
+
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        
+                       <h4 id="prod_name">ROUNDUP HERBICIDE</h4>
+                       <h4 id="subheading">Monsanto</h4>
+                       <h4 id="price">&#8377 540 <s id="p">&#8377 795</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 255</h4>
+
+                        <p id="cart" onclick="addCart()"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">9% off</span></p><img src="usethis/novirus1.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+
+                        <h4 id="prod_name">NO VIRUS (BIO VIRICIDE)</h4>
+                       <h4 id="subheading">Geolife</h4>
+                       <h4 id="price">&#8377 299 <s id="p">&#8377 330</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 31</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">7% off</span></p><img src="usethis/biovita.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">BIOWITA SEAWEED</h4>
+                       <h4 id="subheading">PI Industries</h4>
+                       <h4 id="price">&#8377 870<s id="p">&#8377 939</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 69</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">14% off</span></p><img src="usethis/coragen.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">CORAGEN INSECTICIDE</h4>
+                       <h4 id="subheading">FMC</h4>
+                       <h4 id="price">&#8377 190<s id="p">&#8377 220</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 30</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">16% off</span></p><img src="usethis/exponus.jpeg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">EXPONUS INSECTICIDE</h4>
+                       <h4 id="subheading">BASF</h4>
+                       <h4 id="price">&#8377 560<s id="p">&#8377 670</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 110</h4>
+
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">23% off</span></p><img src="usethis/glycel.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">GLYCEL HERBICIDE</h4>
+                       <h4 id="subheading">Sumitomo</h4>
+                       <h4 id="price">&#8377 625<s id="p">&#8377 815</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 190</h4>
+
+                       <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">20% off</span></p><img src="usethis/simodis1.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">SIMODIS INSECTICIDE</h4>
+                       <h4 id="subheading">Syngenta</h4>
+                       <h4 id="price">&#8377 870<s id="p">&#8377 939</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 69</h4>
+
+                       <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">7% off</span></p><img src="usethis/saaf.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">SAAF FUNGICIDE</h4>
+                       <h4 id="subheading">UPL</h4>
+                       <h4 id="price">&#8377 85<s id="p">&#8377 111</s></h4>
+                        <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 26</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">23% off</span></p><img src="usethis/em1.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">EM-1 INSECTICIDE</h4>
+                       <h4 id="subheading">Dhanuka</h4>
+                       <h4 id="price">&#8377 210<s id="p">&#8377 551</s></h4>
+                        <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 341</h4>
+
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">45% off</span></p><img src="usethis/isabion.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">ISABION GROWTH</h4>
+                       <h4 id="subheading">Syngenta</h4>
+                       <h4 id="price">&#8377 142<s id="p">&#8377 559</s></h4>
+                        <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 417</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">29% off</span></p><img src="usethis/ampligo.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">AMPLIGO INSECTICIDE</h4>
+                       <h4 id="subheading">Syngenta</h4>
+                       <h4 id="price">&#8377 255<s id="p">&#8377 359</s></h4>
+                        <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 104</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">35% off</span></p><img src="usethis/areva.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">AREVA INSECTICIDE</h4>
+                       <h4 id="subheading">Dhanuka</h4>
+                       <h4 id="price">&#8377 140<s id="p">&#8377 216</s></h4>
+                        <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 76</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+          </div>
+
+      </div>
+
+  </section>
+<br>
+
+<section class="mostpopular" id="products" onclick="addCart(">
+    <h2 class="heading"><span>Most Popular</span></h2>
+
+    <div class="container-fluid">
+        <div class="row">
+
+        	<div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">80% off</span></p><img src="usethis/admire.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">ADMIRE INSECTICIDE</h4>
+                       <h4 id="subheading">Dhanuka</h4>
+                       <h4 id="price">&#8377 240<s id="p">&#8377 300</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 60</h4>
+
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+               <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">72% off</span></p><img src="usethis/blitox.webp">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">BLITOX FUNGICIDE</h4>
+                       <h4 id="subheading">Indofil</h4>
+                       <h4 id="price">&#8377 400<s id="p">&#8377 555</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 155</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">78% off</span></p><img src="usethis/decide.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">DECIDE INSECTICIDE</h4>
+                       <h4 id="subheading">Syngenta</h4>
+                       <h4 id="price">&#8377 550<s id="p">&#8377 700</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 150</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">83% off</span></p><img src="usethis/areva.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">AREVA INSECTICIDE</h4>
+                       <h4 id="subheading">Dhanuka</h4>
+                       <h4 id="price">&#8377 500<s id="p">&#8377 600</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 100</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+             
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">75% off</span></p><img src="usethis/solomon.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">SOLOMON INSECTICIDE</h4>
+                       <h4 id="subheading">Bayer</h4>
+                       <h4 id="price">&#8377 340<s id="p">&#8377 450</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 110</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">83% off</span></p><img src="usethis/indofil.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">PEST FUNGICIDE</h4>
+                       <h4 id="subheading">Indofil</h4>
+                       <h4 id="price">&#8377 152<s id="p">&#8377 182</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 30</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">66% off</span></p><img src="usethis/ridomil.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">RIDOMIL FUNGICIDE</h4>
+                       <h4 id="subheading">Syngenta</h4>
+                       <h4 id="price">&#8377 300<s id="p">&#8377 450</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 150</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">80% off</span></p><img src="usethis/sempra.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">SEMPRA HERBICIDE</h4>
+                       <h4 id="subheading">Dhanuka</h4>
+                       <h4 id="price">&#8377 225<s id="p">&#8377 280</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 55</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">94% off</span></p><img src="usethis/bloombuddy.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">BLOOMBUDY PESTICIDE</h4>
+                       <h4 id="subheading">Indofil</h4>
+                       <h4 id="price">&#8377 380<s id="p">&#8377 402</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 22</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">83% off</span></p><img src="usethis/pest.png">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">INDOFIL FUNGICIDE</h4>
+                       <h4 id="subheading">VNR</h4>
+                       <h4 id="price">&#8377 152<s id="p">&#8377 182</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 30</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">80% off</span></p><img src="usethis/pestout.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">PESTOUT INSECTICIDE</h4>
+                       <h4 id="subheading">Crystal</h4>
+                       <h4 id="price">&#8377 200<s id="p">&#8377 250</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 50</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="imagewithdata"><p><span class="offerclass">87% off</span></p><img src="usethis/acemain.jpg">
+
+                    <div class="cost_product_name">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                       <h4 id="prod_name">ACEMAIN HERBICIDE</h4>
+                       <h4 id="subheading">DOW</h4>
+                       <h4 id="price">&#8377 350<s id="p">&#8377 400</s></h4>
+                       <h4 id="savedprice"><i class="fa-solid fa-hand-holding-dollar"></i> Saved Price &#8377 50</h4>
+
+                        <p id="cart"> <span class="glyphicon glyphicon-shopping-cart "></span> &nbsp;&nbsp; Add to Cart </p>
+                     </div>
+               </div>
+              </div>
+
+
+
+   </section>
+
+
+<section class="others">
+    
+  <div class="container-fluid">
+      <div class="row">
+              
+              <div class="col-sm-3 text-center">
+                 <div class="well"><img src="usethis/1.jfif"></div>
+              </div>
+
+
+              <div class="col-sm-3 text-center">
+                 <div class="well"><img src="usethis/2.jfif"></div> 
+              </div>
+
+
+              <div class="col-sm-3 text-center">
+                 <div class="well"><img src="usethis/3.jfif"></div>
+              </div>
+
+
+              <div class="col-sm-3 text-center">
+                 <div class="well"><img src="usethis/4.jfif"></div> 
+              </div>
+
+              
+      </div>  <!--  row 1st--->
+
+</div>
+</section>
+<br><br>
+
+<div class="counter-up">
+  <div class="content">
+   
+    <div class="box">
+      <div class="counter">300+</div>
+      <div class="text">Brands</div>
+    </div>
+
+    <div class="box">
+      <div class="counter">20M+</div>
+      <div class="text">Happy Farmers</div>
+    </div>
+
+    <div class="box">
+      <div class="counter">5K+</div>
+      <div class="text">Products</div>
+    </div>
+
+    <div class="box">
+      <div class="counter">15K+</div>
+      <div class="text">Pincode Delivery</div>
+    </div>
+
+
+  </div>
+</div>
+<br>
+
+<section class="brand">
+     <h2 class="heading">Our<span> Brands</span></h2>
+    <div class="container">
+      <div class="row">
+              
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s1.png"></div>
+              </div>
+
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s2.png"></div> 
+              </div>
+
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s3.png"></div>
+              </div>
+
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s4.png"></div> 
+              </div>
+
+              <div class="col-sm-2 text-center">
+                <div class="well"><img src="usethis/s5.jfif"></div> 
+              </div>
+
+              <div class="col-sm-2 text-center">
+                <div class="well"><img src="usethis/s6.png"></div> 
+              </div>
+         
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s7.jfif"></div>
+              </div>
+
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s8.png"></div>
+              </div>
+
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s9.png"></div>
+              </div>
+
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s10.png"></div> 
+              </div>
+
+              <div class="col-sm-2 text-center">
+                <div class="well"><img src="usethis/s11.jpg"></div> 
+              </div>
+
+              <div class="col-sm-2 text-center">
+                <div class="well"><img src="usethis/s12.png"></div> 
+              </div>
+
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s13.png"></div>
+              </div>
+
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s14.png"></div>
+              </div>
+
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s15.jpg"></div>
+              </div>
+
+
+              <div class="col-sm-2 text-center">
+                 <div class="well"><img src="usethis/s16.png"></div> 
+              </div>
+
+              <div class="col-sm-2 text-center">
+                <div class="well"><img src="usethis/s17.jpg"></div> 
+              </div>
+
+              <div class="col-sm-2 text-center">
+                <div class="well"><img src="usethis/s18.png"></div> 
+              </div>
+         
+      </div>  <!--  row 1st--->
+
+</div>
+</section>
+
+
+<section class="footer">
+    
+  <div class="container-fluid">
+      <div class="row">
+              
+            <div class="col-sm-4">
+                <div class="farm">
+
+            <h3>Farm Sizzle</h3>
+            <hr>
+            <p>FarmSizzle is one of the largest and innovative Indian full-stack AgriTech platforms that is dedicated to revolutionizing the agricultural industry in India.By integrating technology,data-driven insights,and a deep understanding of the agriculture sector,FarmSizzle aims to improve the overall agricultural ecosystem, increase farm yields,reduce input costs,and enhance the well-being of farmers across India.The platform plays a pivotal role in bridging the gap between technology and agriculture,ultimately contributing to the growth and sustainability of the agricultural sector.The platform leverages technology to provide a wide range of solutions and services to farmers, helping them optimize their agricultural practices,increase productivity,and ultimately improve their livelihoods.</p>
+
+                </div>
+            </div>
+
+
+            <div class="col-sm-4">
+                <div class="links">
+            <h3>Quick Links</h3>
+            <a href="#"><i class="fa-brands fa-square-x-twitter" id="twitter"></i> Twitter</a>
+            <a href="#"><i class="fa-brands fa-square-facebook" id="facebook"></i> Facebook</a>
+            <a href="#"><i class="fa-brands fa-square-instagram" id="insta"></i> Instagram</a>
+            <a href="#"><i class="fa-brands fa-linkedin" id="linkdin"></i> Linkdin</a>
+                </div>
+            
+            </div>
+
+
+            <div class="col-sm-4">
+            <div class="contactinfo" id="contactus">
+            <h3>Contact Us</h3>
+            <h4><i class="fa-solid fa-location-dot"></i> P.O.Fertilizernagar-391750,Dist.Vadodara,Gujarat,India</h4>
+            <a href="#"><i class="fa-solid fa-phone"></i> +91-265-27772451, 2345551, 8842751</a>
+            <a href="#"><i class="fa-solid fa-phone"></i> +91-265-8840966, 2240119</a>
+            <a href="#" class="contact"><i class="fa-solid fa-envelope" id="mail"></i> info@farmsizzle.com</a>
+            <hr>
+            <p>Marketing(Industrial Products) - Domestic<a href="#" class="contact"><i class="fa-solid fa-envelope" id="mail"></i>   smvhora@farmsizzle.com></a></p>
+            <p>Marketing(Industrial Products) - Export<a href="#" class="contact"><i class="fa-solid fa-envelope" id="mail"></i>     mktpu@farmsizzle.com</a></p>
+            <p>HRM / General Administration<a href="#" class="contact"><i class="fa-solid fa-envelope" id="mail"></i>                shpurohit@farmsizzle.com></a></p>
+            <p>Material Management<a href="#" class="contact" ><i class="fa-solid fa-envelope" id="mail"></i>                         pathakjeedv@farmsizzle.com></a></p>
+
+            </div>
+        </div>
+
+<div class="map">
+
+
+        <div class="col-sm-6">
+
+            <div id="formdiv">
+        <form>
+            <table>
+                <tr>
+                    <th><h3>Get In Touch!</h3><hr></th>
+                </tr>
+
+                <tr>
+                     <td><input type="text" class="inputclass" placeholder="First Name" required></td>
+                </tr>
+
+                <tr>
+                     <td><input type="text" class="inputclass" placeholder="Last Name" required></td>
+                </tr>
+
+                
+                <tr>
+                     <td><input type="text" class="inputclass" placeholder="Enter your phone no." required></td>
+                </tr>
+
+                <tr>
+                     <td><input type="text" class="inputclass" placeholder="Enter a valid email address" required></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <textarea  class="inputclass" placeholder="Enter your message" required></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                     <td>
+                      <input type="submit" value="Submit" class="btnclass">
+                     </td>
+                </tr>
+                
+            </table>
+
+        </form>
+        
+    </div>
+
+        </div>
+
+             
+
+        <div class="col-sm-6">
+
+              
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15131.79923772078!2d73.8656595!3d18.5311701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0f555bf965d%3A0x4dbf1000c873a42d!2sAISSMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1704986641158!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               
+                
+        </div>
+                
+
+</div>
+<!--<div class="map">
+    <div class="row">
+
+      <div class="mapclass">
+           <h2>Deccan Branch</h2>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.290507956198!2d73.83044768885496!3d18.515769700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c078508dede3%3A0x7d4ac4fd7fc8e015!2sAxis%20Bank%20Branch!5e0!3m2!1sen!2sin!4v1704431207753!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           
+      </div>
+
+      <div class="mapclass">
+           <h2>Kothrud</h2>
+          
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.949809816069!2d73.86308457519186!3d18.531170082564543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0f555bf965d%3A0x4dbf1000c873a42d!2sAISSMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1704431458175!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           
+      </div>
+  </div>
+</div>-->
+
+             
+      </div> 
+
+</div>
+
+</section>
+<br>
+
+
+
+
+</body>
+</html>
